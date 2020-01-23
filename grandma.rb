@@ -1,6 +1,8 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string) 
-  if string !== string.c
+  if string !== string.capitals 
+    print "HUH?! SPEAK UP, SONNY!"
+  elsif string == "I LOVE YOU GRANDMA"
   
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
