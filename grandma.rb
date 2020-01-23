@@ -1,8 +1,11 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string) 
+  love = "I LOVE YOU GRANDMA"
   if string !== string.capitals 
     print "HUH?! SPEAK UP, SONNY!"
-  elsif string == "I LOVE YOU GRANDMA"
+  elsif string == love 
+    print "I LOVE YOU TOO PUMPKIN"
+  else print "NO< NOT SINCE 1938!"  
   
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
